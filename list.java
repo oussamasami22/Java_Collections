@@ -13,5 +13,8 @@ import java.util.Collections;
         // Sorting
         Collections.sort(noms);
         System.out.println(noms);
+        System.out.println("-----------------------------");
+     int index = Collections.binarySearch(noms, "oussama");
+     System.out.println("index of researched name is : "+index);
     }
  }
