@@ -7,8 +7,8 @@ import java.util.HashMap;
     public static void main (String[] args){
         Map<Integer, String> students = new HashMap<>();
      students.put(1, "oussama");
-     students.put(1, "sami");
-     students.put(1, "elgoum");
+     students.put(2, "sami");
+     students.put(3, "elgoum");
 
 
      for (Map.Entry<Integer, String> entree : students.entrySet()) {
